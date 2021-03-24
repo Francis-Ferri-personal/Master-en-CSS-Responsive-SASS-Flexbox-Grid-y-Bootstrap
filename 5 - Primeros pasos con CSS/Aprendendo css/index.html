@@ -6,24 +6,43 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1 style="color: blue; font-size: 35px;">Master en CSS con Victor Robles WEB</h1>
-        <ul>
-            <li><a href="#">Inicio</a></li>
+        <h1 id="titulo">Master en CSS con Victor Robles WEB</h1>
+        <ul id="menu">
+            <li>
+                <a href="#">Inicio</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">LESS</a></li>
+                </ul>
+            </li>
             <li><a href="#">Temario</a></li>
             <li><a href="#">Reseñas</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
         <div id="descripcion">
             <h2>Descripcion del curso</h2>
-            <p>
+            <p class="parrafo parrafo1">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel massa vitae urna tincidunt bibendum eu sed sapien. Donec mauris nunc, mattis nec diam non, auctor egestas nunc. Vivamus et luctus ligula, sed sodales tortor. Suspendisse potenti. Pellentesque at nunc porttitor, sollicitudin ex in, pulvinar nunc. Duis a risus ut justo bibendum rhoncus ornare a libero. Integer non tellus iaculis, varius sapien eu, pellentesque sapien. Aenean sollicitudin consequat lacus, non fringilla sapien convallis vel. Pellentesque commodo laoreet felis eget vestibulum. Nulla aliquet sagittis massa, ut eleifend purus. Mauris neque metus, porta et augue scelerisque, eleifend feugiat massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum pharetra libero vel leo faucibus, eget aliquet ligula sollicitudin.
             </p>
-            <p>
+            <p class="parrafo">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel massa vitae urna tincidunt bibendum eu sed sapien. Donec mauris nunc, mattis nec diam non, auctor egestas nunc. Vivamus et luctus ligula, sed sodales tortor. Suspendisse potenti. Pellentesque at nunc porttitor, sollicitudin ex in, pulvinar nunc. Duis a risus ut justo bibendum rhoncus ornare a libero. Integer non tellus iaculis, varius sapien eu, pellentesque sapien. Aenean sollicitudin consequat lacus, non fringilla sapien convallis vel. Pellentesque commodo laoreet felis eget vestibulum. Nulla aliquet sagittis massa, ut eleifend purus. Mauris neque metus, porta et augue scelerisque, eleifend feugiat massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum pharetra libero vel leo faucibus, eget aliquet ligula sollicitudin.
             </p>
-            <p>
+            <p class="parrafo parrafo3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel massa vitae urna tincidunt bibendum eu sed sapien. Donec mauris nunc, mattis nec diam non, auctor egestas nunc. Vivamus et luctus ligula, sed sodales tortor. Suspendisse potenti. Pellentesque at nunc porttitor, sollicitudin ex in, pulvinar nunc. Duis a risus ut justo bibendum rhoncus ornare a libero. Integer non tellus iaculis, varius sapien eu, pellentesque sapien. Aenean sollicitudin consequat lacus, non fringilla sapien convallis vel. Pellentesque commodo laoreet felis eget vestibulum. Nulla aliquet sagittis massa, ut eleifend purus. Mauris neque metus, porta et augue scelerisque, eleifend feugiat massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum pharetra libero vel leo faucibus, eget aliquet ligula sollicitudin.
             </p>
+        </div>
+        <div id="usuario">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" />
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos"/>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div id="saludo">
+            <h1>Hola soy Francis Ferri</h1>
         </div>
         <footer>
             Todos los derechos reservados &copy; <a href="https://www.francisferri.com">Francis</a>
