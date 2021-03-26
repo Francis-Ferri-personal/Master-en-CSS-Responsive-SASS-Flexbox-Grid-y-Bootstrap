@@ -1,0 +1,49 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 40px;
+}
+
+#cajas {
+    max-width: 1035px;
+    border: 1px solid black;
+}
+
+.caja {
+    display: block;
+    width: 250px;
+    height: 250px;
+    /* min-width: ;
+    max-width: ; */
+    background-color: lightblue;
+    border: 10px solid red;
+    margin: 15px;
+    /* top right bttom left */
+    margin: 15px 15px 15px 15px;
+    /* Buena practica margen generla y luego modifica si quieres uno de estos */
+    margin: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 34px;
+    float: left;
+}
+
+.caja p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* El espaciado es aproximadamente el tamañop del container - tamaño de fuente */
+    /* 250 - 20 */
+    line-height: 230px; 
+}
+
+.clearfix{
+    float: none;
+    /* Limpiar flotados tanto de la izquierda como de la derecha */
+    clear: both; 
+}
