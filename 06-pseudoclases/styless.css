@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:first-child {
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li:nth-child(2){
+    color: orange;
+    font-weight: bold;
+}
+
+ul li:last-child{
+    color: gray;
+    font-weight: bold;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+#mi-enlace:link {
+    /* Se pone en rojo si no lo has visitado */
+    color: red;
+}
+
+#mi-enlace:visited {
+    color: orangered;
+}
+
+#mi-enlace:hover {
+    color: blue;
+}
+
+#mi-enlace:active{
+    /* Mientras se esta pulsando el elemento */
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    /* Para cuabndo estas llenando formularios */
+    border: 4px dashed red;
+}
