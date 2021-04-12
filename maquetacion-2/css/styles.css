@@ -37,7 +37,7 @@ body {
 
 .wrap  {
     margin: 0px auto;
-    width: 1200px; /* 1200 */
+    width: 1250px; /* 1200 */
 }
 
 .gear, .icon  {
@@ -542,7 +542,7 @@ aside h3 {
 }
 
 #articles article {
-    width: 100%;
+    width: 98%;
     height: auto;
     border: 1px solid #ccc;
     margin: 40px auto;
