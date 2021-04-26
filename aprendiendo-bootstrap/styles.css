@@ -31,3 +31,12 @@ footer {
         height: auto;
     }
 }
+
+#slider {
+    height: 300px;
+    overflow: hidden;
+}
+
+#slider img {
+    height: 300px;
+}
